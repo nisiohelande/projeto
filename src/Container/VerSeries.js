@@ -42,12 +42,7 @@ export default class VerSeries extends Component {
                 <div className="elenco">
                     Elenco: <p>{this.state.serie.elenco}</p>
                 </div>
-                <div className="temporada">
-                    Temporada: <p>{this.state.serie.temporada}</p>
-                </div>
-                <div className="episodios">
-                    Episódios: <p>{this.state.serie.episodios}</p>
-                </div>
+                
 
             </section>
 
