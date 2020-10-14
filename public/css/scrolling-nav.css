@@ -252,6 +252,29 @@ a {
     border-radius: 10px;
     font-size: 20px;
 }
+.temporada {
+    margin-top: 15px;
+    background-color: rgb(199, 187, 199);
+    width: 200px;
+    height: 70px;
+    float:left;
+    text-align: left;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-left: 15px;
+}
+.episodios {
+    margin-top: 15px;
+    background-color: rgb(199, 187, 199);
+    width: 200px;
+    height: 70px;
+    float: left;
+    text-align: left;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-left: 15px;
+}
+
 
 
 .identificacao {
