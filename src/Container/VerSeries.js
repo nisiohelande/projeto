@@ -25,8 +25,16 @@ export default class VerSeries extends Component {
                 <div className="tituloFilme">
                     <h2>{this.state.serie.titulo}</h2>
                 </div>
-                <div className="genero">
-                    Gênero: <p>{this.state.serie.genero}</p>
+                <div>
+                    <div className="genero">
+                        Gênero: <p>{this.state.serie.genero}</p>
+                    </div>
+                    <div className="temporada">
+                        Temporada: <p>{this.state.serie.temporada}</p>
+                    </div>
+                    <div className="episodios">
+                        Episódios: <p>{this.state.serie.episodios}</p>
+                    </div>
                 </div>
                 <div className="sinopse">
                     Sinopse: <p>{this.state.serie.sinopse}</p>
